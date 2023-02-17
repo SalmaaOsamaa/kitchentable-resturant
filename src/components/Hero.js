@@ -47,7 +47,7 @@ const Hero = () => {
     <motion.div
     variants={fadeIn('down', 'tween', 0.5, 1.1)}
     >
-      <Link to='/aboutteam' className='btn hover:bg-zinc-600/70'>{btnText}</Link>
+      <Link to='/menu' className='btn hover:bg-zinc-600/70'>{btnText}</Link>
     </motion.div>
   </motion.div>
   </motion.div>

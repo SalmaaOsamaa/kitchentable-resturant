@@ -20,7 +20,7 @@ const Completemenu = () => {
       initial={{opacity:0, translateX: -50}}
       animate={{opacity:1, translateX:0}}
       transition={{duration:0.5, delay:0.1}}
-       className="flex-1  w-full h-1/2 ">
+       className="flex-1  w-full h-1/2  ">
         <img src={image} alt="" />
       </motion.div>
       {/*col-2 */}
@@ -28,11 +28,10 @@ const Completemenu = () => {
       initial={{opacity:0, translateY: -50}}
       animate={{opacity:1, translateY:0}}
       transition={{duration:0.5, delay:0.5}}
-      
-      className=" flex-1 lg:text-left lg:pt-16 w-full h-1/2 ">
-        <h2 className="h2 capitalize mb-8 text-center">{title}</h2>
+      className=" flex-1  w-full lg:text-left lg:pt-16  h-1/2  lg:w-1/4">
+        <h2 className="h2 capitalize mb-8 mt-5 text-center">{title}</h2>
         <h3 className="pretitle mb-8 text-center">{pretitle}</h3>
-        <p className=" mb-[60px] text-black text-center whitespace-nowrap text-base leading-6">{subtitle}</p>
+        <p className=" mb-[60px] text-black text-center text-base leading-6  ">{subtitle}</p>
         <div class="flex flex-col space-y-4 items-center flex-wrap ">
         {btnTexts.map((btn, i)=>(
           <motion.button

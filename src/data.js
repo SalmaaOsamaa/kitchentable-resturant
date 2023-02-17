@@ -22,12 +22,11 @@ import Avatar3 from "../src/assets/img/testimonial/avatar3.png";
 import Videobg from "../src/assets/img/hero/video.mp4";
 export const navData = [
   { href: "/", name: "home" },
-  { href: "/", name: "about" },
-  { href: "/", name: "menu" },
-  { href: "/", name: "team" },
-  { href: "/", name: "testimonials" },
-  { href: "/", name: "book a table" },
-  { href: "/", name: "contact" },
+  { href: "/aboutteam", name: "about" },
+  { href: "/menu", name: "menu" },
+  { href: "/aboutteam", name: "team" },
+  { href: "/reservation", name: "book a table" },
+
 ];
 
 export const heroData = {
