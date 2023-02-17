@@ -13,13 +13,13 @@ import MenuImg1 from "../src/assets/img/menu/1.png";
 import MenuImg2 from "../src/assets/img/menu/2.png";
 import MenuImg3 from "../src/assets/img/menu/3.png";
 import MenuImg4 from "../src/assets/img/menu/4.png";
-import Completemenuimage from "../src/assets/img/menu/completemenu.png";
+import Completemenuimage from "../src/assets/img/menu/complete.png";
 import SignatureImg from "../src/assets/img/team/signature.png";
 import ChefImg from "../src/assets/img/team/chef.png";
 import Avatar1 from "../src/assets/img/testimonial/avatar1.png";
 import Avatar2 from "../src/assets/img/testimonial/avatar2.png";
 import Avatar3 from "../src/assets/img/testimonial/avatar3.png";
-import Videobg from "../src/assets/img/hero/video.mp4";
+import Videobg from "../src/assets/img/hero/video (1).mp4";
 export const navData = [
   { href: "/", name: "home" },
   { href: "/aboutteam", name: "about" },
