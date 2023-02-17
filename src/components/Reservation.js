@@ -45,14 +45,14 @@ const Reservation = () => {
     eatingoccasion: yup.string().oneOf(["lunch","dinner"]).typeError("please choose an eating occasion").required("please choose an eating occasion")
 
   });
-  const { register, handleSubmit, control, formState:{errors}} = useForm({
+  const { register, handleSubmit, control, formState:{errors} , reset} = useForm({
     resolver:yupResolver(schema)
   });
-  console.log(errors);
+ 
   const onSubmit = (data) => {
     
     setModalOn(true);
-    setPhoneNumber("")
+    reset();
    
   };
 
@@ -203,10 +203,8 @@ const Reservation = () => {
             </div>
           </div>
           <div className="flex justify-center items-center gap-x-[10px] font-semibold text-dark text-base mb-3" {...register("eatingoccasion")}>
-  
-         
           <select name="eatingoccasion" {...register("eatingoccasion")} id="" className="input" placeholder="eating occasion" >
-          <option value="" disabled selected hidden>choose eating occation</option>
+          <option value="" disabled selected hidden>choose eating occasion</option>
             <option value="lunch">
               lunch
             </option>
