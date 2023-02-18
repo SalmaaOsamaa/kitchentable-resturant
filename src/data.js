@@ -19,7 +19,7 @@ import ChefImg from "../src/assets/img/team/chef.png";
 import Avatar1 from "../src/assets/img/testimonial/avatar1.png";
 import Avatar2 from "../src/assets/img/testimonial/avatar2.png";
 import Avatar3 from "../src/assets/img/testimonial/avatar3.png";
-import Videobg from "../src/assets/img/hero/video (1).mp4";
+import Videobg from "../src/assets/img/hero/video.mp4";
 export const navData = [
   { href: "/", name: "home" },
   { href: "/aboutteam", name: "about" },
