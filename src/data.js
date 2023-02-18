@@ -63,28 +63,28 @@ export const menuData = {
     {
       image: MenuImg1,
       name: "Obe Ata Soup",
-      price: "85 EGP",
+      price: "30 $",
       description:
         "African tomato soup, African red pepper stew, buka stew, red stew, or even another name. Along with Ata Din Din, also known as Red Pepper sauce.",
     },
     {
       image: MenuImg2,
       name: "English breakfast",
-      price: "110 EGP",
+      price: "40 $",
       description:
         "The english breakfast consists of bacon, fried egg, sausage, mushrooms, baked beans, toast, and grilled tomatoes.",
     },
     {
       image: MenuImg3,
       name: "Baked Salmon dish",
-      price: "350 EGP",
+      price: "55 $",
       description:
         " Baked Salmon with a sweet and tangy Buttery Honey Mustard Sauce",
     },
     {
       image: MenuImg4,
       name: "Mexican Burger",
-      price: "90 EGP",
+      price: "25 $",
       description:
         "A hamburger patty, grilled to perfection, is nestled with refried beans inside a freshly rolled flour tortilla. ",
     },
