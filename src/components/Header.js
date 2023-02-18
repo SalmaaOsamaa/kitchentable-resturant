@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Nav from "../components/Nav";
 import Socials from "../components/Socials";
-import LogoWhite from "../assets/img/header/logo-white.png";
+import LogoWhite from "../assets/img/header/logo-white.webp";
 // import motion
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn } from "../variants";

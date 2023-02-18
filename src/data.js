@@ -6,19 +6,17 @@ import {
   FaPinterestP,
 } from "react-icons/fa";
 // import images
-import AboutImg from "../src/assets/img/about/plate.png";
-import ModelWhiteImg from "../src/assets/img/model-white.png";
-import ModelBlackImg from "../src/assets/img/model-black.png";
-import MenuImg1 from "../src/assets/img/menu/1.png";
-import MenuImg2 from "../src/assets/img/menu/2.png";
-import MenuImg3 from "../src/assets/img/menu/3.png";
-import MenuImg4 from "../src/assets/img/menu/4.png";
-import Completemenuimage from "../src/assets/img/menu/complete.png";
-import SignatureImg from "../src/assets/img/team/signature.png";
-import ChefImg from "../src/assets/img/team/chef.png";
-import Avatar1 from "../src/assets/img/testimonial/avatar1.png";
-import Avatar2 from "../src/assets/img/testimonial/avatar2.png";
-import Avatar3 from "../src/assets/img/testimonial/avatar3.png";
+import AboutImg from "../src/assets/img/about/plate.webp";
+import ModelWhiteImg from "../src/assets/img/model-white.webp";
+import ModelBlackImg from "../src/assets/img/model-black.webp";
+import MenuImg1 from "../src/assets/img/menu/1.webp";
+import MenuImg2 from "../src/assets/img/menu/2.webp";
+import MenuImg3 from "../src/assets/img/menu/3.webp";
+import MenuImg4 from "../src/assets/img/menu/4.webp";
+import Completemenuimage from "../src/assets/img/menu/complete.webp";
+import SignatureImg from "../src/assets/img/team/signature.webp";
+import ChefImg from "../src/assets/img/team/chef.webp";
+
 import Videobg from "../src/assets/img/hero/video.mp4";
 export const navData = [
   { href: "/", name: "home" },
@@ -115,34 +113,7 @@ export const teamData = {
   chefImg: ChefImg,
 };
 
-export const testimonialData = {
-  title: "what client's say ",
-  subtitle: "1500+ statisfied clients",
-  modelImg: ModelWhiteImg,
-  slider: [
-    {
-      message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
-      image: Avatar1,
-      name: "Rick Thompson",
-      occupation: "CEO of Delightful",
-    },
-    {
-      message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
-      image: Avatar2,
-      name: "John Doe",
-      occupation: "CEO of Delightful",
-    },
-    {
-      message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
-      image: Avatar3,
-      name: "Henry A.",
-      occupation: "CEO of Delightful",
-    },
-  ],
-};
+
 
 export const reservationData = {
   title: "booking form",
