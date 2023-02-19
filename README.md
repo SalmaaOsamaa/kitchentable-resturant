@@ -5,7 +5,7 @@
 <div align="center" width="auto">
   <img src="./src/assets/img/cover.png" width="900" height="400"/>
 </div>
-### Installation
+# Installation
 1. Clone the repo 
 ```sh
 git clone https://github.com/SalmaaOsamaa/React-Food-Ordering-App.git
