@@ -15,10 +15,12 @@ git clone https://github.com/SalmaaOsamaa/kitchentable-resturant.git
 
 2. install dependenscies
  ```bash
-   npm install
+  npm i json-server
   ```
    
-3. run the project 
+3. run this comand 
 ```bash
-   npm start
+   json-server --watch --port
+ 4000 ./_db/db.json
+
    ```
